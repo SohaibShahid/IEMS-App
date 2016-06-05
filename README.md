@@ -1,0 +1,4 @@
+# IEMS-App
+IEMS, short for Intelligent Energy Management System, was my final year project during my Bachelors degree. 
+
+The system comprises of a laptop, XBee modules, a PIC microcontroller and a variety of different sensors to manage how the energy was consumed in any given room (where the system had been installed). The admin would use this application on an Android device to enter thresohold values for fans, ACs and heaters. The lights would be managed independently. The threshold values would be saved in a text file, transferred to the laptop via Google Drive, and from there it would be sent to the microcontroller in the room via XBee modules. The microcontroller would compare the values in the text file and the outputs of the sensors connected to it, and control all the electrical appliances accordingly. 
